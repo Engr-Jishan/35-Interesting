@@ -19,4 +19,10 @@ function double(a, b, c) {
 
 // Object
 const fifth = { name: "jishan ahemd", age: 20, location: "Narayanganj" };
-console.log(fifth.age);
+// console.log(fifth.age);
+
+// Array
+const sixth = [2, 3, 4, 5, 6];
+// console.log(sixth[0]);
+delete sixth[2];
+console.log(sixth);
